@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
       - name: container
-        image: tmkube/app:v1
+        image: arajo/kubernetes-deployment-test:latest
 ---
 apiVersion: v1
 kind: Service
